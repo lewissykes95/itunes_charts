@@ -1,0 +1,20 @@
+.flex-container {
+    border: 2px solid cornflowerblue;
+    border-radius: 15px;
+    position: relative;
+    left: 31%;
+    width: 30%;
+    background-color: cornflowerblue;
+    margin: 15px;
+    padding: 10px;
+}
+
+.flex-item{
+    padding: 20px;
+    text-align: center;
+}
+
+img {
+    border-radius: 10%;
+
+}

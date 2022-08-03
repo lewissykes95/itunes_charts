@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import SongList from "../components/SongList";
+import './SongContainer.css';
 
 
 const SongContainer = () => {
@@ -18,11 +19,12 @@ const SongContainer = () => {
         console.log(songs)
     }
     return (
-
+        <>
+        <h1>iTunes Charts </h1>
         <div className="main-container">
-            <h1>Songs </h1>
             <SongList songs={songs} />
         </div>
+        </>
 
     );
 
