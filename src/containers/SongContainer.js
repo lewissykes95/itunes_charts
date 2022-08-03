@@ -17,7 +17,6 @@ const SongContainer = () => {
         .then(songs => setSongs(songs.feed.entry))
         console.log(songs)
     }
-
     return (
 
         <div className="main-container">
